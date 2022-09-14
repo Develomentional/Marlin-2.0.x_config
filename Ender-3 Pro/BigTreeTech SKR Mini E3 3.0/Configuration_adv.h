@@ -32,7 +32,7 @@
  *
  * Basic settings can be found in Configuration.h
  */
-#define CONFIGURATION_ADV_H_VERSION 02000903
+#define CONFIGURATION_ADV_H_VERSION 02000904
 
 //===========================================================================
 //============================= Thermal Settings ============================
@@ -47,9 +47,7 @@
  * is reported.  This allows us to ignore intermittent error conditions while
  * still detecting an actual failure, which should result in a continuous
  * stream of errors from the sensor.
- *
- * Set this value to 0 to fail on the first error to occur.
- */
+ *2222222222221
 #define THERMOCOUPLE_MAX_ERRORS 15
 
 //
@@ -3438,7 +3436,7 @@
  * See https://marlinfw.org/docs/configuration/laser_spindle.html for more config details.
  */
 //#define SPINDLE_FEATURE
-//#define LASER_FEATURE
+333#define LASER_FEATURE
 #if EITHER(SPINDLE_FEATURE, LASER_FEATURE)
   #define SPINDLE_LASER_ACTIVE_STATE    LOW    // Set to "HIGH" if SPINDLE_LASER_ENA_PIN is active HIGH
 
